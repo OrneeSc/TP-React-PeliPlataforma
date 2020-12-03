@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(54, 57, 63);
+    color: rgb(220, 221, 222);
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+    .section-container{
+        max-width: 1400px;
+        width: 100%;
+        padding: 20px;
+        margin: 20px;
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        .btn-subNav{
+            text-decoration: none;
+            background: none;
+            margin: 10px;
+            color:rgb(168, 170, 173);
+            font-weight: 600;
+            border-bottom: 2px solid rgb(220, 221, 222);
+            font-size: 20px;
+            padding-bottom: 10px;
+            &:hover {
+                color: rgb(220, 221, 222);
+            }
+            &:focus {
+                color: rgb(220, 221, 222);
+            }
+        }
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 20px;
+        height: 375px;
+        padding-left: 20px;
+        .content-img{
+            width:250px;
+            height:375px;
+            background-color: white;
+        }
+        .content-texto{
+            padding-left: 20px;
+            box-sizing: border-box;
+            max-width: 500px;
+            h1{
+                margin: 0;
+            }
+            p{
+                margin-top: 30px;
+            }
+        }
+    }
+    .content-footer{
+        background-color:white;
+        width:400px;
+        margin-left: 305px;
+    }
+}
